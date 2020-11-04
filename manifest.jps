@@ -280,6 +280,7 @@ actions:
           undeployHook: ${globals.DEPLOY_HOOK_JS}
           undeployHookType: js
           _customDomains: ${env.domain}
+          fallbackToX1: true
 
     - if (!${this.skipEnvs:false}): 
        cmd[cp]: |-
