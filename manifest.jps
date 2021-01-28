@@ -106,7 +106,7 @@ nodes:
     DB_PASSWORD: ${globals.DB_PASSWORD}
     USER_EMAIL: ${user.email}
   startService: false
-  extip: ${settings.le-addon:false}
+  extip: ${settings.le-addon:0}
 
 - count: 1
   cloudlets: 32
